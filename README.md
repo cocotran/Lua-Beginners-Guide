@@ -2,7 +2,7 @@
 [doc](https://www.lua.org/docs.html)<br/>
 
 # Note
-Lua start from index 1<br/>
+Lua starts from index 1<br/>
 string concatenation uses ".." instead of "+" 
 
 ## Printing
