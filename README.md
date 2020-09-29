@@ -81,6 +81,9 @@ print(phase .. name) --My name is John Doe
 local age = 12
 local name = "Billy"
 print(name .. " is " .. age .. " years old")
+
+-- strings format
+"5 is more than 2", ("%d is more than %d"):format(5, 2)
 ````
 
 **Boolean**
