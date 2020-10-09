@@ -294,7 +294,14 @@ print(colors[3]) --blue
 for i=1, #colors do
   print(colors[i])
 end
+
+a = {}
+print(table.getn(a))               --> 0
+table.setn(a, 10000)
+print(table.getn(a))               --> 10000
 ```
+
+
 
 **Table Manipulation**
 ```lua
